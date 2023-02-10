@@ -11,6 +11,8 @@ import { CardsModule } from '@elewa-group/features/components/cards';
 import { LayoutModule } from '@elewa-group/elements/layout';
 import { ElementsLayoutFooterModule } from '@elewa-group/elements/layout/footer';
 
+import { ButtonsModule } from '@elewa-group/features/components/buttons';
+
 @NgModule({
   declarations: [AppComponent],
   imports: [
@@ -18,6 +20,7 @@ import { ElementsLayoutFooterModule } from '@elewa-group/elements/layout/footer'
     ScullyLibModule,
     HomePageModule,
     CardsModule,
+    ButtonsModule,
     LayoutModule,
     ElementsLayoutFooterModule
   ],
